@@ -9,12 +9,17 @@ namespace TasksWithNumbers.Tasks
             int[] numbers = {1, 6, 8, 5, 0, -3, 2};
             Console.WriteLine("Enter shift: ");
             int shift = Convert.ToInt32(Console.ReadLine());
-            int z = numbers.Length - shift;
-            for (int i = 0; i < z; i++)
-            {
-                int temp = numbers[i + shift];
-                numbers[i + shift] = numbers[i];
-                //numbers[i] = temp;
+
+            for(int j = 0; j < shift; j++) { 
+                int temp = numbers[numbers.Length - 1];
+                for (int i = numbers.Length-1; i >= 0; i--)
+                {
+                    if(i > 0)
+                    {
+                        numbers[i] = numbers[i - 1];
+                    }
+                    else numbers[0] = temp;
+                }
             }
 
             foreach (var n in numbers)

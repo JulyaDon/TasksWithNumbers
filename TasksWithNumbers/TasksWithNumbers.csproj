@@ -48,7 +48,10 @@
     <Compile Include="Tasks\Deviation.cs" />
     <Compile Include="Tasks\ExtractionOfElement.cs" />
     <Compile Include="Tasks\MaxValueInArray.cs" />
+    <Compile Include="Tasks\NumberWithWords.cs" />
     <Compile Include="Tasks\PositiveNegativeNumbers.cs" />
+    <Compile Include="Tasks\RandomArray.cs" />
+    <Compile Include="Tasks\RomanArabicNumbers.cs" />
     <Compile Include="Tasks\ShiftElements.cs" />
     <Compile Include="Tasks\SumOfNumbers.cs" />
   </ItemGroup>
