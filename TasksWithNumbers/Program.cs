@@ -7,7 +7,7 @@ namespace TasksWithNumbers
     {
         static void Main(string[] args)
         {
-            NumberWithWords.ReplaceNumbers();
+            FizzBuzz.Execute();
             Console.ReadLine();
         }
     }
